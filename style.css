@@ -1,0 +1,20 @@
+.logo img {
+  width: 150px;
+}
+.menu {
+}
+.barra-navigazione {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #00FF00;
+  margin-top: 10px;
+  border: 1px green;
+}
+.logo {
+  border: 1px red;
+}
+.menu {
+  border: 1px blue;
+  margin-left: 1rem;
+}
