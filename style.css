@@ -4,6 +4,9 @@
 .menu {
 }
 .barra-navigazione {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background: #00FF00;
   margin-top: 10px;
   border: 1px green;
