@@ -1,20 +1,22 @@
 .logo img {
   width: 150px;
 }
-.menu {
-}
 .barra-navigazione {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: #00FF00;
+  background: rgba(251, 247, 181, 0.74);
   margin-top: 10px;
-  border: 1px green;
-}
-.logo {
-  border: 1px red;
+  border: 1px solid green;
 }
 .menu {
-  border: 1px blue;
   margin-left: 1rem;
+}
+.menu a {
+   color: #E009A4;
+   border: 3px solid #E009A4;
+   text-decoration: none;
+   line-height: 50px;
+   font-size: 30px;
+  font-family: fantasy;
 }
