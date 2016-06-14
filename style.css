@@ -10,13 +10,14 @@
   border: 1px solid green;
 }
 .menu {
-  margin-left: 1rem;
+  margin-left: 15rem;
 }
 .menu a {
-   color: #E009A4;
-   border: 3px solid #E009A4;
-   text-decoration: none;
-   line-height: 50px;
-   font-size: 30px;
+  color: #E009A4;
+  border: 3px solid #E009A4;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 30px;
   font-family: fantasy;
+  margin: 5px;
 }
