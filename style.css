@@ -24,8 +24,8 @@
   padding-right: 0.5rem;
 }
 .presentazione-della-recensione {
-  width: 100%;
-  height: 100%;
+  width: 1350px;
+  height: 1000px;
   background: url("immagini/sfondo.jpg") no-repeat;
   background-size: cover;
   display: flex;
