@@ -45,4 +45,8 @@
   margin: 0;
   font-family: cursive;
   font-size: 50px;
+  color: white;
+}
+.presentazione-della-recensione .recensore em {
+  color: red;
 }
