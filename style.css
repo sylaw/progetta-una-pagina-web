@@ -24,10 +24,10 @@
   padding-right: 0.5rem;
 }
 .presentazione-della-recensione {
-  width: 1350px;
-  height: 1000px;
   background: url("immagini/sfondo.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
+  height: 720px;
   display: flex;
   flex-direction:column;
   align-items: center;
@@ -49,4 +49,22 @@
 }
 .presentazione-della-recensione .recensore em {
   color: #E009A4;
+}
+.info-prodotto {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: #fed060;
+}
+.info-prodotto table {
+  border-collapse: collapse;
+  background-color: rgba(251, 247, 181, 0.74);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.info-prodotto table td {
+  border: 5px solid #E009A4;
+  font-family: fantasy;
+  text-align: center;
+  padding: 0.5rem;
 }
