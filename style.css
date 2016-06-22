@@ -1,13 +1,16 @@
 .logo img {
   width: 150px;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 .barra-navigazione {
   display: flex;
   flex-direction: row;
   align-items: center;
   background: rgba(251, 247, 181, 0.74);
-  margin-top: 10px;
-  border: 1px solid green;
+  border-bottom: 2px solid #cccccc;
 }
 .menu {
   margin: 0 auto;
@@ -32,6 +35,7 @@
   flex-direction:column;
   align-items: center;
   justify-content: center;
+  border-bottom: 3px solid #c77f14;
 }
 .presentazione-della-recensione .titolo {
   font-weight: bolder;
@@ -64,7 +68,49 @@
 }
 .info-prodotto table td {
   border: 5px solid #E009A4;
-  font-family: fantasy;
+  font-family: Helvetica;
   text-align: center;
   padding: 0.5rem;
+}
+.info-prodotto table td em {
+  font-weight: bold;
+}
+.contenuti-recensione {
+  background-color: #fed060;
+  padding: 0 100px 20px 100px;
+}
+.contenuti-recensione .blocco-paragrafo {
+  background-color: white;
+  padding: 20px;
+}
+.contenuti-recensione .blocco-paragrafo p {
+  font-family: georgia;
+  text-align: justify;
+}
+.contenuti-recensione .blocco-paragrafo p em {
+  font-weight: bold;
+}
+.contenuti-recensione .blocco-paragrafo p a {
+  color: #E009A4;
+  font-size: 20px;
+  text-decoration: none;
+}
+.contenuti-recensione .blocco-paragrafo .evidenza {
+  font-size: 20px;
+  color: #009688;
+  line-height: 25px;
+}
+.contenuti-recensione .blocco-immagine {
+  background-color: white;
+  padding-bottom: 20px;
+}
+.contenuti-recensione .blocco-immagine img {
+  display: block;
+  margin: 0 auto;
+}
+.sfondo-testo {
+  padding: 20px;
+  background: url("immagini/sfondo-testo.jpg") no-repeat;
+  background-size: cover;
+  color: #fff;
 }
