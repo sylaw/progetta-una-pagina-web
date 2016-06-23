@@ -54,30 +54,40 @@ body {
 .presentazione-della-recensione .recensore em {
   color: #E009A4;
 }
-.info-prodotto {
+
+.contenitore-prodotto-recensione {
+  padding: 40px;
+  background: #fed060;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
   display: flex;
-  flex-direction:column;
-  align-items: center;
-  background-color: #fed060;
+}
+
+.info-prodotto {
+  border: 5px solid #E009A4;
+  border-radius: 5px;
 }
 .info-prodotto table {
   border-collapse: collapse;
   background-color: rgba(251, 247, 181, 0.74);
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 .info-prodotto table td {
-  border: 5px solid #E009A4;
+  border-bottom: 5px solid #E009A4;
   font-family: Helvetica;
   text-align: center;
   padding: 0.5rem;
 }
+.info-prodotto table tr:last-child td {
+  border-bottom: none;
+}
 .info-prodotto table td em {
   font-weight: bold;
 }
+
 .contenuti-recensione {
-  background-color: #fed060;
-  padding: 0 100px 20px 100px;
+  margin-left: 40px;
+  box-shadow: 0px 0px 10px #444231;
 }
 .contenuti-recensione .blocco-paragrafo {
   background-color: white;
@@ -102,15 +112,20 @@ body {
 }
 .contenuti-recensione .blocco-immagine {
   background-color: white;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 .contenuti-recensione .blocco-immagine img {
+  border: 2px solid #796f6f;
+  max-width: 960px;
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
 .sfondo-testo {
   padding: 20px;
   background: url("immagini/sfondo-testo.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
+  height: 700px;
   color: #fff;
 }
